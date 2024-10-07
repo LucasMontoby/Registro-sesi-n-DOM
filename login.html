@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Iniciar Sesión</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="register.html">Registro</a></li>
+        </ul>
+    </nav>
+    </header>
+    <main>
+        <form action="" id="formularioLogin">
+            <div>
+                <label for="usuarioLogin">Nombre de usuario: </label>
+               <input type="text" id="usuarioLogin" required>
+            </div>
+
+            <div>
+                <label for="contrasenaLogin">Contraseña: </label>
+               <input type="password" id="contrasenaLogin" required>
+            </div>
+
+            <div>
+                <button type="submit">Iniciar Sesión</button>
+            </div>
+        </form>
+        <div id="mensajeLogin"></div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
